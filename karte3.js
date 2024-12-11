@@ -50,7 +50,7 @@ function addCsvDataToMap(data) {
 
         if (!isNaN(lon) && !isNaN(lat)) {
             const feature = new ol.Feature({
-                geometry: new ol.geom.Point([lon, lat]),
+                geometry: new ol.geom.Point([lat, lon]),
                 name: name,
             });
 
