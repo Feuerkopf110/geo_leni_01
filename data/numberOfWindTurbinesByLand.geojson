@@ -1,23 +1,87 @@
 {
-"type": "FeatureCollection",
-"name": "numberOfWindTurbinesByLand_",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": "Bayern", "timestamp": "2024-10-14T13:00:00Z", "value": 899, "dist_pole": 1.1816406269713169 }, "geometry": { "type": "Point", "coordinates": [ 11.67387651473733, 48.777083811104596 ] } },
-{ "type": "Feature", "properties": { "id": "Hamburg", "timestamp": "2024-10-14T13:00:00Z", "value": 67, "dist_pole": 0.10706631874683648 }, "geometry": { "type": "Point", "coordinates": [ 9.970187735099792, 53.541113830440743 ] } },
-{ "type": "Feature", "properties": { "id": "Niedersachsen", "timestamp": "2024-10-14T13:00:00Z", "value": 4727, "dist_pole": 0.82538293763148751 }, "geometry": { "type": "Point", "coordinates": [ 9.958739679563926, 52.568453534310528 ] } },
-{ "type": "Feature", "properties": { "id": "Nordrhein-Westfalen", "timestamp": "2024-10-14T13:00:00Z", "value": 3124, "dist_pole": 0.71261512089827439 }, "geometry": { "type": "Point", "coordinates": [ 7.409508552107833, 51.551450962059405 ] } },
-{ "type": "Feature", "properties": { "id": "Bremen", "timestamp": "2024-10-14T13:00:00Z", "value": 76, "dist_pole": 0.060342753433761311 }, "geometry": { "type": "Point", "coordinates": [ 8.817125799295036, 53.091532831687381 ] } },
-{ "type": "Feature", "properties": { "id": "Hessen", "timestamp": "2024-10-14T13:00:00Z", "value": 819, "dist_pole": 0.61600504980436788 }, "geometry": { "type": "Point", "coordinates": [ 9.256623860785718, 50.808471705138935 ] } },
-{ "type": "Feature", "properties": { "id": "Baden-Württemberg", "timestamp": "2024-10-14T13:00:00Z", "value": 749, "dist_pole": 0.87567315906949428 }, "geometry": { "type": "Point", "coordinates": [ 9.111517205119087, 48.559192067445508 ] } },
-{ "type": "Feature", "properties": { "id": "Sachsen-Anhalt", "timestamp": "2024-10-14T13:00:00Z", "value": 1687, "dist_pole": 0.6161266319245533 }, "geometry": { "type": "Point", "coordinates": [ 11.641578459750246, 51.947869527698138 ] } },
-{ "type": "Feature", "properties": { "id": "Brandenburg", "timestamp": "2024-10-14T13:00:00Z", "value": 3628, "dist_pole": 0.51420245860080294 }, "geometry": { "type": "Point", "coordinates": [ 14.11607084082525, 52.057695991924433 ] } },
-{ "type": "Feature", "properties": { "id": "Sachsen", "timestamp": "2024-10-14T13:00:00Z", "value": 753, "dist_pole": 0.42999108381136547 }, "geometry": { "type": "Point", "coordinates": [ 13.078321175018189, 50.988114131803897 ] } },
-{ "type": "Feature", "properties": { "id": "Berlin", "timestamp": "2024-10-14T13:00:00Z", "value": 16, "dist_pole": 0.11154506295258704 }, "geometry": { "type": "Point", "coordinates": [ 13.416275552822304, 52.524213783929085 ] } },
-{ "type": "Feature", "properties": { "id": "Saarland", "timestamp": "2024-10-14T13:00:00Z", "value": 222, "dist_pole": 0.20369777444764986 }, "geometry": { "type": "Point", "coordinates": [ 7.047624696343036, 49.399818425579262 ] } },
-{ "type": "Feature", "properties": { "id": "Thüringen", "timestamp": "2024-10-14T13:00:00Z", "value": 804, "dist_pole": 0.54382637789596966 }, "geometry": { "type": "Point", "coordinates": [ 10.750178904886818, 50.930578446311216 ] } },
-{ "type": "Feature", "properties": { "id": "Rheinland-Pfalz", "timestamp": "2024-10-14T13:00:00Z", "value": 1850, "dist_pole": 0.51056212565979564 }, "geometry": { "type": "Point", "coordinates": [ 7.263766188505654, 50.103241605071943 ] } },
-{ "type": "Feature", "properties": { "id": "Schleswig-Holstein", "timestamp": "2024-10-14T13:00:00Z", "value": 3264, "dist_pole": 0.59236852622857816 }, "geometry": { "type": "Point", "coordinates": [ 9.781909293399046, 54.232430122501604 ] } },
-{ "type": "Feature", "properties": { "id": "Mecklenburg-Vorpommern", "timestamp": "2024-10-14T13:00:00Z", "value": 1759, "dist_pole": 0.77211400667444474 }, "geometry": { "type": "Point", "coordinates": [ 13.071259981726122, 54.0189010192871 ] } }
-]
+    "type": "FeatureCollection",
+    "name": "numberOfWindTurbinesByLand_",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": { "id": "Bayern", "timestamp": "2024-10-14T13:00:00Z", "value": 899, "dist_pole": 1.1816406269713169 },
+            "geometry": { "type": "Point", "coordinates": [11.67387651473733, 48.777083811104596] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Hamburg", "timestamp": "2024-10-14T13:00:00Z", "value": 67, "dist_pole": 0.10706631874683648 },
+            "geometry": { "type": "Point", "coordinates": [9.970187735099792, 53.541113830440743] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Niedersachsen", "timestamp": "2024-10-14T13:00:00Z", "value": 4727, "dist_pole": 0.82538293763148751 },
+            "geometry": { "type": "Point", "coordinates": [9.958739679563926, 52.568453534310528] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Nordrhein-Westfalen", "timestamp": "2024-10-14T13:00:00Z", "value": 3124, "dist_pole": 0.71261512089827439 },
+            "geometry": { "type": "Point", "coordinates": [7.409508552107833, 51.551450962059405] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Bremen", "timestamp": "2024-10-14T13:00:00Z", "value": 76, "dist_pole": 0.060342753433761311 },
+            "geometry": { "type": "Point", "coordinates": [8.817125799295036, 53.091532831687381] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Hessen", "timestamp": "2024-10-14T13:00:00Z", "value": 819, "dist_pole": 0.61600504980436788 },
+            "geometry": { "type": "Point", "coordinates": [9.256623860785718, 50.808471705138935] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Baden-Württemberg", "timestamp": "2024-10-14T13:00:00Z", "value": 749, "dist_pole": 0.87567315906949428 },
+            "geometry": { "type": "Point", "coordinates": [9.111517205119087, 48.559192067445508] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Sachsen-Anhalt", "timestamp": "2024-10-14T13:00:00Z", "value": 1687, "dist_pole": 0.6161266319245533 },
+            "geometry": { "type": "Point", "coordinates": [11.641578459750246, 51.947869527698138] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Brandenburg", "timestamp": "2024-10-14T13:00:00Z", "value": 3628, "dist_pole": 0.51420245860080294 },
+            "geometry": { "type": "Point", "coordinates": [14.11607084082525, 52.057695991924433] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Sachsen", "timestamp": "2024-10-14T13:00:00Z", "value": 753, "dist_pole": 0.42999108381136547 },
+            "geometry": { "type": "Point", "coordinates": [13.078321175018189, 50.988114131803897] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Berlin", "timestamp": "2024-10-14T13:00:00Z", "value": 16, "dist_pole": 0.11154506295258704 },
+            "geometry": { "type": "Point", "coordinates": [13.416275552822304, 52.524213783929085] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Saarland", "timestamp": "2024-10-14T13:00:00Z", "value": 222, "dist_pole": 0.20369777444764986 },
+            "geometry": { "type": "Point", "coordinates": [7.047624696343036, 49.399818425579262] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Thüringen", "timestamp": "2024-10-14T13:00:00Z", "value": 804, "dist_pole": 0.54382637789596966 },
+            "geometry": { "type": "Point", "coordinates": [10.750178904886818, 50.930578446311216] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Rheinland-Pfalz", "timestamp": "2024-10-14T13:00:00Z", "value": 1850, "dist_pole": 0.51056212565979564 },
+            "geometry": { "type": "Point", "coordinates": [7.263766188505654, 50.103241605071943] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Schleswig-Holstein", "timestamp": "2024-10-14T13:00:00Z", "value": 3264, "dist_pole": 0.59236852622857816 },
+            "geometry": { "type": "Point", "coordinates": [9.781909293399046, 54.232430122501604] }
+        },
+        {
+            "type": "Feature",
+            "properties": { "id": "Mecklenburg-Vorpommern", "timestamp": "2024-10-14T13:00:00Z", "value": 1759, "dist_pole": 0.77211400667444474 },
+            "geometry": { "type": "Point", "coordinates": [13.071259981726122, 54.0189010192871] }
+        }
+    ]
 }

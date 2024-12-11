@@ -13,39 +13,39 @@ npm install ol
 Import just what you need for your application:
 
 ```js
-import Map from 'ol/Map';
-import View from 'ol/View';
-import TileLayer from 'ol/layer/Tile';
-import XYZ from 'ol/source/XYZ';
+import Map from "ol/Map";
+import View from "ol/View";
+import TileLayer from "ol/layer/Tile";
+import XYZ from "ol/source/XYZ";
 
 new Map({
-  target: 'map',
-  layers: [
-    new TileLayer({
-      source: new XYZ({
-        url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
-      })
-    })
-  ],
-  view: new View({
-    center: [0, 0],
-    zoom: 2
-  })
+    target: "map",
+    layers: [
+        new TileLayer({
+            source: new XYZ({
+                url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            }),
+        }),
+    ],
+    view: new View({
+        center: [0, 0],
+        zoom: 2,
+    }),
 });
 ```
 
 See the following examples for more detail on bundling OpenLayers with your application:
 
- * Using [Vite](https://github.com/openlayers/ol-vite)
- * Using [Rollup](https://github.com/openlayers/ol-rollup)
- * Using [webpack](https://github.com/openlayers/ol-webpack)
- * Using [Parcel](https://github.com/openlayers/ol-parcel)
+-   Using [Vite](https://github.com/openlayers/ol-vite)
+-   Using [Rollup](https://github.com/openlayers/ol-rollup)
+-   Using [webpack](https://github.com/openlayers/ol-webpack)
+-   Using [Parcel](https://github.com/openlayers/ol-parcel)
 
 For more detail on quick prototyping without the use of a Node.js based setup, see the [Skypack](https://github.com/openlayers/ol-skypack) example.
 
 ## Sponsors
 
-OpenLayers appreciates contributions of all kinds.  We especially want to thank our fiscal sponsors who contribute to ongoing project maintenance.
+OpenLayers appreciates contributions of all kinds. We especially want to thank our fiscal sponsors who contribute to ongoing project maintenance.
 
 <br>
 
@@ -68,7 +68,7 @@ OpenLayers appreciates contributions of all kinds.  We especially want to thank 
 [![ela-compil logo](./sponsor-logos/ela-compil.png)](https://ela.pl/)
 
 > We develop leading Physical Security Information Management (PSIM) software.
-> OpenLayers is the core of our map engine and we love it! 
+> OpenLayers is the core of our map engine and we love it!
 > https://ela.pl/
 
 <br>
@@ -96,7 +96,7 @@ The [ol package](https://npmjs.com/package/ol) includes auto-generated TypeScrip
 
 ## Supported Browsers
 
-OpenLayers runs on all modern browsers (with greater than 1% global usage).  This includes Chrome, Firefox, Safari and Edge. For older browsers, polyfills ([Fastly](https://polyfill-fastly.io) or [Cloudflare](https://cdnjs.cloudflare.com/polyfill)) will likely need to be added.
+OpenLayers runs on all modern browsers (with greater than 1% global usage). This includes Chrome, Firefox, Safari and Edge. For older browsers, polyfills ([Fastly](https://polyfill-fastly.io) or [Cloudflare](https://cdnjs.cloudflare.com/polyfill)) will likely need to be added.
 
 ## Documentation
 
@@ -112,7 +112,7 @@ Please see our guide on [contributing](CONTRIBUTING.md) if you're interested in 
 
 ## Community
 
-- Need help? Find it on [Stack Overflow using the tag 'openlayers'](https://stackoverflow.com/questions/tagged/openlayers)
-- Follow [@openlayers](https://twitter.com/openlayers) on Twitter
+-   Need help? Find it on [Stack Overflow using the tag 'openlayers'](https://stackoverflow.com/questions/tagged/openlayers)
+-   Follow [@openlayers](https://twitter.com/openlayers) on Twitter
 
 ![Test Status](https://github.com/openlayers/openlayers/workflows/Test/badge.svg)
