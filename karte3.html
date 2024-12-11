@@ -33,13 +33,16 @@
             </nav>
         </header>
         <main>
-            <h1>Willkommen zur OpenLayers-Übung</h1>
-            <!-- Hier wird Karte 3 angezeigt -->
-            <!-- Datei-Upload -->
-            <script src="libs\ol.js"></script>
-            <script src="openlayers.js"></script>
+            <h1>Karte 3</h1>
+            <div>
+                <input type="file" id="csvFile" accept=".csv" />
+            </div>
+            <div id="map" class="map_container"></div>
+            
             <div id="karte"></div>
-            <input type="file" id="csvFile" accept=".csv" />
         </main>
+        <script src="./libs/ol.js"></script>
+        <script src="./libs/papaparse.js"></script>
+        <script src="./karte3.js"></script>
     </body>
 </html>
