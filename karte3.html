@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenLayers Übung</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="libs\ol.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="karte1.html">Karte 1</a></li>
-                <li><a href="karte2.html">Karte 2</a></li>
-                <li><a href="karte3.html"class="active">Karte 3</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Willkommen zur OpenLayers-Übung</h1>
-        <Hier wird Karte 3 angezeigt>
-      <!-- Datei-Upload -->
-      <script src="libs\ol.js"></script>
-      <script src="openlayers.js"></script>
-      <div id="karte"></div>
-    <input type="file" id="csvFile" accept=".csv" />
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OpenLayers Übung</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="libs\ol.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!-- <ul>
+                <a href="index.html"><li>Startseite</li></a>
+                <a href="karte1.html"><li></li>Karte 1</li></a>
+                <a href="karte2.html"><li></li>Karte 2</li></a>
+                <a href="karte3.html"class="active"><li></li>Karte 3</li></a>
+            </ul> -->
+                <div class="nav_grid_container">
+                    <a href="index.html">
+                        <div class="nav_grid_item link">Startseite</div>
+                    </a>
+                    <a href="karte1.html">
+                        <div class="nav_grid_item link">Karte 1</div>
+                    </a>
+                    <a href="karte2.html">
+                        <div class="nav_grid_item link">Karte 2</div>
+                    </a>
+                    <a href="karte3.html">
+                        <div class="nav_grid_item link active">Karte 3</div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Willkommen zur OpenLayers-Übung</h1>
+            <!-- Hier wird Karte 3 angezeigt -->
+            <!-- Datei-Upload -->
+            <script src="libs\ol.js"></script>
+            <script src="openlayers.js"></script>
+            <div id="karte"></div>
+            <input type="file" id="csvFile" accept=".csv" />
+        </main>
+    </body>
 </html>
